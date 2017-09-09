@@ -1,0 +1,75 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+
+	.box-registration {
+		h2 {
+			font-size: 30px;
+		}
+	}
+
+	.btn-registration {
+		font-size: 16px;
+	}
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+
+	.header-top {
+		position: fixed;
+		z-index: 9999;
+		height: 55px;
+		background-color: #fff;
+		left: 0;
+		right: 0;
+	}
+
+	.container-header {
+		width: 100%;
+	}
+
+	.btn-mobile {
+		display: block;
+	}
+
+	.box-icon {
+		text-align: center;
+		margin-bottom: 40px;
+		img {
+			display: inline-block;
+			width: auto;
+			max-width: 215px;
+			height: auto;
+		}
+	}
+
+	.box-text {
+		text-align: center;
+	}
+
+	.marker-left {
+		top: -60px;
+		left: calc(50% - 52px / 2);
+	}
+
+	.wow {
+		visibility: visible !important;
+		animation: none !important;
+	}
+
+	.services-item {
+		margin-bottom: 60px;
+	}
+
+	.footer-nav {
+		margin-bottom: 40px;
+	}
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {}

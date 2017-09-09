@@ -1,0 +1,68 @@
+.browserupgrade {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+body {
+	min-width: 320px;
+	font-family: OpenSansRegular;
+	color: #fff;
+}
+
+.container-header {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 85%;
+}
+
+h2 {
+	font-family: ComfortaaBold;
+	font-size: 42px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: OpenSansLight;
+	font-size: 30px;
+}
+
+h4 {
+	font-family: ComfortaaBold;
+	font-size: 14px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: ComfortaaBold;
+	font-size: 12px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+}
+
+p {
+	letter-spacing: .025em;
+	line-height: 30px;
+	margin-bottom: 0;
+}
+
+a {
+	color: inherit;
+	outline: none;
+	&:hover {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+button {
+	outline: none;
+	&:focus {
+		outline: none;
+	}
+}

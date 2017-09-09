@@ -1,0 +1,15 @@
+{
+  "name": "www",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~4.0.0-alpha.6",
+    "css-hamburgers": "^0.9.1",
+    "wow": "wowjs#^1.1.2",
+    "animate.css": "^3.5.2",
+    "swiper": "^3.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
+}
