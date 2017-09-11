@@ -69,6 +69,31 @@
 		margin-bottom: 40px;
 	}
 
+	.hide-mobile {
+		display: none;
+	}
+
+	.swiper-slide {
+		padding: 0;
+	}
+
+	.swiper-slide > div:first-child {
+		position: static;
+		margin-top: 240px;
+		h2 {
+			text-align: center;
+			font-size: 26px;
+		}
+	}
+
+	.swiper-container {
+		height: 450px;
+	}
+
+	.parallax-bg {
+		background-position: center center;
+	}
+
 }
 
 // Large devices (desktops, less than 1200px)

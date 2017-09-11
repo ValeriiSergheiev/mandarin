@@ -8,9 +8,14 @@ var swiper = new Swiper('.swiper-container', {
 	prevButton: '.swiper-button-prev',
 	parallax: true,
 	speed: 600,
-	loop: true
-            //autoplay: 1000
-          });
+	loop: true,
+	breakpoints: {
+		992: {
+			//parallax: false
+		}
+	},
+	autoplay: 2500
+});
 
 //Mobile menu
 $('.btn-mobile button').click(function() {

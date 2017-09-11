@@ -100,14 +100,46 @@
 
 .object-4-1 {
 	position: absolute;
-	left: 0%;
-	top: 10%;
+	left: -15%;
+	top: 20%;
 	z-index: 100;
 }
 
 .object-4-2 {
 	position: absolute;
-	left: 10%;
+	left: 50%;
 	bottom: 20%;
 	z-index: 50;
+}
+
+.object-4-3 {
+	position: absolute;
+	left: -70px;
+	bottom: 0;
+	z-index: 50;
+}
+
+// Arrows
+.swiper-button-prev {
+	left: 8%;
+}
+
+.swiper-button-next {
+	right: 8%;
+}
+
+// Pagination
+.swiper-pagination-bullet {
+	width: 22px;
+	height: 22px;
+	border: 2px solid #fff;
+	opacity: 1;
+}
+
+.swiper-pagination-white .swiper-pagination-bullet {
+	background-color: transparent;
+}
+
+.swiper-pagination-white .swiper-pagination-bullet-active {
+	background-color: rgba(255, 2555, 255, .4);
 }
